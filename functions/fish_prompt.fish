@@ -35,5 +35,14 @@ function fish_prompt -d "Write out the prompt"
   end
   
 #  printf '%s@%s%s> ' (whoami) (hostname|cut -d . -f 1) (set_color normal)
-  echo -n -s  $orange $whoami @ $hostname $git_info $arrow $normal
+  echo -n -s  $red $whoami @ $hostname $git_info $arrow $normal
 end
+
+
+
+
+
+
+
+
+
